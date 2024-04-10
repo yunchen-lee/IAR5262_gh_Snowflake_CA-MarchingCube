@@ -27,6 +27,7 @@
 ## B. 演算法
 ### b1 Cell Automata - snowflake 生成：
 class HexNode 描述三角形網格中每一個網點的狀態，class HexGrid 參考 Reiter, C. (2005) 以 cell automata 機制模仿雪花生成時的擴散作用，HexNode 中的 water 紀錄網點的含水量，如果含水量超過 1 則 frozen。擴散機制中有三個參數 alpha、beta、gamma，調整這三個參數初始值可以改變雪花生成的結果，在過程中更改參數則可以變化出各種雪花特徵組合。alpha 為擴散速度，beta 表示邊界傳入水量，gamma 表示 receptive node 吸收的背景水量，每回合計算完後同時更新新的含水量，因此雪花完全對稱。
+📌 [Snowflake Generator by Cellular Automata in P5js 二維雪花生成器(細胞自動機)](https://github.com/yunchen-lee/IAR5262_p5_Snowflake_CellularAutomata)
 
 ### b2 Marching Triangles - snowflake 視覺化：
 根據雪花的分子結構 - 六角柱堆砌(Triangular-hexagonal prismatic honeycomb)，class PrismGrid 以 class TriPrismUnit 單一三角柱組成三層三角柱堆砌網格，中間單層做雪花生成，形成雪花單一封閉 mesh 實體。
