@@ -8,7 +8,7 @@
 
 ---
 ## A. 檔案名稱與內容
-### a1 作業檔：
+### a1 GH檔：
 	a1-1 MarchingCube.gh
 	a1-2 IAR5262_MarchingCube.dll
 ### a2 原始碼：
@@ -16,7 +16,7 @@
 	a2-2 HexGrid.cs 雪花生成網格
 	a2-3 TriPrismUnit.cs 三角柱堆砌單元
 	a2-4 PrismGrid.cs 三角柱網格
-### a4 影片與照片：
+### a4 成果紀錄：
 	a4-1 snowflake_demoXnspeed.gif 生成記錄影片
 	a4-2 snowflake_report.pdf 實驗紀錄
  ![image](https://github.com/yunchen-lee/IAR5262_gh_Snowflake_CA-MarchingCube/blob/main/report/ref-1.png)
