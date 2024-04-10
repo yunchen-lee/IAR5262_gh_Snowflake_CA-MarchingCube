@@ -4,11 +4,11 @@
 * **AUTHOR**: 310465008 李芸蓁 yclee@arch.nycu.edu.tw
 * **DATE**: 2022/01/27
 * **DESCRIPTION**: 使用 Cell Automata 生成雪花，並以 Marching Triangles 將雪花生成過程視覺化
-
-![image](https://github.com/yunchen-lee/IAR5262_gh_Snowflake_CA-MarchingCube/blob/main/report/snowflake_demoXnspeed.gif)
+![image](https://github.com/yunchen-lee/IAR5262_gh_Snowflake_CA-MarchingCube/blob/main/report/0404_protfolio-01.png)
 
 ---
 ## A. 檔案名稱與內容
+![image](https://github.com/yunchen-lee/IAR5262_gh_Snowflake_CA-MarchingCube/blob/main/report/snowflake_demoXnspeed.gif)
 ### a1 作業檔：
 	a1-1 MarchingCube.gh
 	a1-2 IAR5262_MarchingCube.dll
