@@ -8,7 +8,6 @@
 
 ---
 ## A. 檔案名稱與內容
-![image](https://github.com/yunchen-lee/IAR5262_gh_Snowflake_CA-MarchingCube/blob/main/report/snowflake_demoXnspeed.gif)
 ### a1 作業檔：
 	a1-1 MarchingCube.gh
 	a1-2 IAR5262_MarchingCube.dll
@@ -51,6 +50,7 @@ class HexNode 描述三角形網格中每一個網點的狀態，class HexGrid �
 * snowflake：list of mesh -> joined mesh
 
 ### c4 使用步驟：
+![image](https://github.com/yunchen-lee/IAR5262_gh_Snowflake_CA-MarchingCube/blob/main/report/snowflake_demoXnspeed.gif)
 1. 關閉 timmer，並設定 reset = true
 2. 設定初始值(預設值 size:30, alpha:1, beta: 0.9, gamma: 0, displayPeriod: 75, timmer: 10ms)
 3. 設定 reset = false
