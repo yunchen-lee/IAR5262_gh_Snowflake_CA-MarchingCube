@@ -20,6 +20,7 @@ DESCRIPTION: 使用 Cell Automata 生成雪花，並以 Marching Triangles 將�
 ### a4 影片與照片：
 	a4-1 2022_0127_snowflake_demo.mp4 生成記錄影片
 	a4-2 2022_0127_snowflake_report.pdf 實驗紀錄
+ ![image](https://github.com/yunchen-lee/IAR5262_gh_Snowflake_CA-MarchingCube/blob/main/report/ref-1.png)
 
 
 ---
