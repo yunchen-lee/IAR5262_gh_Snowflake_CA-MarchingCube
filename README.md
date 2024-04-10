@@ -36,18 +36,19 @@ class HexNode 描述三角形網格中每一個網點的狀態，class HexGrid �
 ---
 ## C. 操作方法
 ### c1 DLL：使用 IAR5262_MarchingCube.dll
+![image](https://github.com/yunchen-lee/IAR5262_gh_Snowflake_CA-MarchingCube/blob/main/report/ref.png)
 
 ### c2 Input：
-reset：初始化
-size：網格大小
-alpha：擴散速率(diffusion coefficient)
-beta：邊界傳入水量(background level)
-gamma：背景水量(vapour addition)
-displayPeriod：marching triangle 更新週期(每計算 n 次更新一次 field)
+* reset：初始化
+* size：網格大小
+* alpha：擴散速率(diffusion coefficient)
+* beta：邊界傳入水量(background level)
+* gamma：背景水量(vapour addition)
+* displayPeriod：marching triangle 更新週期(每計算 n 次更新一次 field)
 
 ### c3 Output：
-out：顯示狀態(Reset：初始化狀態/End：snowflake生成完成)
-snowflake：list of mesh -> joined mesh
+* out：顯示狀態(Reset：初始化狀態/End：snowflake生成完成)
+* snowflake：list of mesh -> joined mesh
 
 ### c4 使用步驟：
 1. 關閉 timmer，並設定 reset = true
@@ -64,8 +65,8 @@ snowflake：list of mesh -> joined mesh
 
 ---
 ## D. 困難與待嘗試
-困難 - cell automata 需很清楚每個步驟執行的順序，一開始沒有注意遇到雪花生長不對稱的問題
-待嘗試 - 加上Z方向的擴散作用機制
+* 困難 - cell automata 需很清楚每個步驟執行的順序，一開始沒有注意遇到雪花生長不對稱的問題
+* 待嘗試 - 加上Z方向的擴散作用機制
 
 
 ---
