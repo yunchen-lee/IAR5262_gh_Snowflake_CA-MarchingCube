@@ -51,7 +51,6 @@ class HexNode 描述三角形網格中每一個網點的狀態，class HexGrid �
 * snowflake：list of mesh -> joined mesh
 
 ### c4 使用步驟：
-![image](https://github.com/yunchen-lee/IAR5262_gh_Snowflake_CA-MarchingCube/blob/main/report/snowflake_demoXnspeed.gif)
 1. 關閉 timmer，並設定 reset = true
 2. 設定初始值(預設值 size:30, alpha:1, beta: 0.9, gamma: 0, displayPeriod: 75, timmer: 10ms)
 3. 設定 reset = false
@@ -63,6 +62,7 @@ class HexNode 描述三角形網格中每一個網點的狀態，class HexGrid �
 2. 更改 alpha/beta/gamma
 3. 開啟 timmer
 
+![image](https://github.com/yunchen-lee/IAR5262_gh_Snowflake_CA-MarchingCube/blob/main/report/snowflake_demoXnspeed.gif)
 
 ---
 ## D. 困難與待嘗試
