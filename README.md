@@ -10,7 +10,7 @@
 ---
 ## A. 檔案名稱與內容
 ### a1 GH檔：
-	a1-1 MarchingCube.gh
+	a1-1 MarchingCube.gh (MarchingCube.txt 內容與 gh 檔案中的 c# 元件一致，若無安裝 Rhino/Grasshopper 可參考此文件)
 	a1-2 IAR5262_MarchingCube.dll
 ### a2 原始碼：
 	a2-1 HexNode.cs 雪花生成網點
